@@ -2,12 +2,40 @@ body {
 	margin: 0;
 }
 
+.Container {
+	width: 70%;
+	overflow: hidden;
+	margin: auto;
+}
+
 .Header {
 	width: 100%;
 	overflow: hidden;
 	background-color: #b1b1b1b1;
 	/* margin = jarak antara item ke item
     padding jarak di dalam item */
-	padding: 50px;
-	margin-bottom: 50px;
+	/* padding: 50px;
+	margin-bottom: 50px; */
+}
+
+.Header .Logo {
+	font-size: 32px;
+	float: left;
+}
+
+.Header .Navigation {
+	float: right;
+	margin-top: 40px;
+}
+
+.Header .Navigation li {
+	float: right;
+	margin-left: 20px;
+	font-size: 18px;
+	display: block;
+}
+
+.Header .Navigation li a {
+	color: #ffff;
+	text-decoration: none;
 }
