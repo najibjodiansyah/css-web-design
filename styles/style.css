@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+}
+
+.Header {
+	width: 100%;
+	overflow: hidden;
+	background-color: #b1b1b1b1;
+	/* margin = jarak antara item ke item
+    padding jarak di dalam item */
+	padding: 50px;
+	margin-bottom: 50px;
+}
