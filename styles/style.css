@@ -11,16 +11,19 @@ body {
 .Header {
 	width: 100%;
 	overflow: hidden;
-	background-color: #b1b1b1b1;
+	background-color: salmon;
 	/* margin = jarak antara item ke item
     padding jarak di dalam item */
 	/* padding: 50px;
 	margin-bottom: 50px; */
+	height: 550px;
+	background: linear-gradient(to left, blueviolet, salmon);
 }
 
 .Header .Logo {
 	font-size: 32px;
 	float: left;
+	font-family: "Abril Fatface", cursive;
 }
 
 .Header .Navigation {
@@ -36,6 +39,32 @@ body {
 }
 
 .Header .Navigation li a {
-	color: #ffff;
+	color: black;
 	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.Header .Navigation li a:hover {
+	color: blueviolet;
+	text-decoration: underline;
+}
+
+/* PSEUDOCLASS */
+/* .Header .Navigation li a:visited {
+	color: blue;
+} */
+
+.center-div {
+	width: 350px;
+	height: 350px;
+	margin: 2% 37%;
+
+	background-color: blueviolet;
+	border-radius: 200%;
+	background-size: cover;
+	background-image: url("https://yt3.ggpht.com/ytc/AKedOLQMRo3R25HzTPZ2n2-4ke6P4P3cetZZx3YgZirLvxM=s900-c-k-c0x00ffffff-no-rj");
+}
+
+footer {
+	margin-left: 35%;
 }
